@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="M600URDF">
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="-0.00320693911724421 0.00169815104393978 -0.0221841191666093"
+        rpy="0 0 0" />
+      <mass
+        value="1.07072098870815" />
+      <inertia
+        ixx="0.00252591451978805"
+        ixy="-1.82101741563284E-07"
+        ixz="-1.47309400166745E-07"
+        iyy="0.00275873931863483"
+        iyz="4.17697637533596E-08"
+        izz="0.00498886349895843" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://M600URDF/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://M600URDF/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="Motor1_front_left_link">
+    <inertial>
+      <origin
+        xyz="0.006488 0.0076815 -0.070942"
+        rpy="0 0 0" />
+      <mass
+        value="0.11399" />
+      <inertia
+        ixx="0.00019871"
+        ixy="0.00025974"
+        ixz="-4.6197E-06"
+        iyy="0.00036739"
+        iyz="3.2887E-06"
+        izz="0.00056352" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://M600URDF/meshes/Motor1_front_left_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://M600URDF/meshes/Motor1_front_left_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Motor1_front_left_joint"
+    type="continuous">
+    <origin
+      xyz="0.50036 0.2886 0.012238"
+      rpy="-3.0753 0.11027 -2.1217" />
+    <parent
+      link="base_link" />
+    <child
+      link="Motor1_front_left_link" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      effort="100"
+      velocity="420" />
+    <dynamics
+      damping="0.1"
+      friction="0.1" />
+  </joint>
+  <link
+    name="Motor2_front_right_link">
+    <inertial>
+      <origin
+        xyz="0.0009063 -4.0514E-06 0.072036"
+        rpy="0 0 0" />
+      <mass
+        value="0.056995" />
+      <inertia
+        ixx="8.9919E-05"
+        ixy="-0.00012681"
+        ixz="2.4293E-06"
+        iyy="0.00019314"
+        iyz="1.6056E-06"
+        izz="0.00028176" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://M600URDF/meshes/Motor2_front_right_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://M600URDF/meshes/Motor2_front_right_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Motor2_front_right_joint"
+    type="continuous">
+    <origin
+      xyz="0.50048 -0.28877 0.011225"
+      rpy="0.13742 0.012088 -2.2723" />
+    <parent
+      link="base_link" />
+    <child
+      link="Motor2_front_right_link" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      effort="100"
+      velocity="420" />
+    <dynamics
+      damping="0.1"
+      friction="0.1" />
+  </joint>
+  <link
+    name="Motor3_mid_left_link">
+    <inertial>
+      <origin
+        xyz="-5.8592E-06 -4.0553E-06 0.038325"
+        rpy="0 0 0" />
+      <mass
+        value="0.056995" />
+      <inertia
+        ixx="9.0324E-05"
+        ixy="-0.00012699"
+        ixz="2.4373E-11"
+        iyy="0.0001927"
+        iyz="1.3739E-10"
+        izz="0.00028179" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://M600URDF/meshes/Motor3_mid_left_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://M600URDF/meshes/Motor3_mid_left_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Motor3_mid_left_joint"
+    type="continuous">
+    <origin
+      xyz="0.00040889 0.57269 0.044614"
+      rpy="0.13963 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="Motor3_mid_left_link" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      effort="100"
+      velocity="420" />
+    <dynamics
+      damping="0.1"
+      friction="0.1" />
+  </joint>
+  <link
+    name="Motor4_mid_right_link">
+    <inertial>
+      <origin
+        xyz="-0.0055796 -0.0076877 -0.050635"
+        rpy="0 0 0" />
+      <mass
+        value="0.11399" />
+      <inertia
+        ixx="0.00019862"
+        ixy="0.00025976"
+        ixz="-2.4438E-10"
+        iyy="0.00036742"
+        iyz="6.3124E-11"
+        izz="0.00056358" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://M600URDF/meshes/Motor4_mid_right_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://M600URDF/meshes/Motor4_mid_right_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Motor4_mid_right_joint"
+    type="continuous">
+    <origin
+      xyz="0.00040889 -0.57451 0.032423"
+      rpy="3.002 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="Motor4_mid_right_link" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      effort="100"
+      velocity="420" />
+    <dynamics
+      damping="0.1"
+      friction="0.1" />
+  </joint>
+  <link
+    name="Motor5_rear_left_link">
+    <inertial>
+      <origin
+        xyz="-0.0039236 0.008651 -0.045018"
+        rpy="0 0 0" />
+      <mass
+        value="0.11399" />
+      <inertia
+        ixx="0.00010297"
+        ixy="-0.00020537"
+        ixz="4.1347E-11"
+        iyy="0.00046308"
+        iyz="-6.8031E-10"
+        izz="0.00056358" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://M600URDF/meshes/Motor5_rear_left_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://M600URDF/meshes/Motor5_rear_left_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Motor5_rear_left_joint"
+    type="continuous">
+    <origin
+      xyz="-0.49641 0.28679 0.037986"
+      rpy="3.002 0 -2.0944" />
+    <parent
+      link="base_link" />
+    <child
+      link="Motor5_rear_left_link" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      effort="100"
+      velocity="420" />
+    <dynamics
+      damping="0.1"
+      friction="0.1" />
+  </joint>
+  <link
+    name="Motor6_rear_right_link">
+    <inertial>
+      <origin
+        xyz="-3.3933E-06 -2.3943E-06 0.038702"
+        rpy="0 0 0" />
+      <mass
+        value="0.056994" />
+      <inertia
+        ixx="8.9059E-05"
+        ixy="-0.00012648"
+        ixz="-3.4413E-11"
+        iyy="0.00019396"
+        iyz="6.1704E-11"
+        izz="0.00028179" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://M600URDF/meshes/Motor6_rear_right_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://M600URDF/meshes/Motor6_rear_right_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Motor6_rear_right_joint"
+    type="continuous">
+    <origin
+      xyz="-0.49565 -0.28645 0.04424"
+      rpy="0.070669 -0.12052 3.1331" />
+    <parent
+      link="base_link" />
+    <child
+      link="Motor6_rear_right_link" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      effort="100"
+      velocity="420" />
+    <dynamics
+      damping="0.1"
+      friction="0.1" />
+  </joint>
+  <link
+    name="LG_left_link">
+    <inertial>
+      <origin
+        xyz="0.12212 -0.33864 -0.017257"
+        rpy="0 0 0" />
+      <mass
+        value="0.121" />
+      <inertia
+        ixx="0.0011624"
+        ixy="0.00014898"
+        ixz="7.8865E-07"
+        iyy="0.00081775"
+        iyz="1.5264E-07"
+        izz="0.00049006" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://M600URDF/meshes/LG_left_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://M600URDF/meshes/LG_left_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="LG_left_joint"
+    type="revolute">
+    <origin
+      xyz="0.019409 0.098608 -0.1042"
+      rpy="1.5708 -0.045048 1.5708" />
+    <parent
+      link="base_link" />
+    <child
+      link="LG_left_link" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="0"
+      upper="1.32"
+      effort="5"
+      velocity="1" />
+    <dynamics
+      damping="0.1"
+      friction="0.1" />
+  </joint>
+  <link
+    name="LG_right_link">
+    <inertial>
+      <origin
+        xyz="0.12212 -0.33864 0.020743"
+        rpy="0 0 0" />
+      <mass
+        value="0.121" />
+      <inertia
+        ixx="0.0011624"
+        ixy="0.00014898"
+        ixz="7.8865E-07"
+        iyy="0.00081775"
+        iyz="1.5264E-07"
+        izz="0.00049006" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://M600URDF/meshes/LG_right_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://M600URDF/meshes/LG_right_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Lg_right_joint"
+    type="revolute">
+    <origin
+      xyz="0.019409 -0.098708 -0.1042"
+      rpy="1.5708 -0.045048 -1.5708" />
+    <parent
+      link="base_link" />
+    <child
+      link="LG_right_link" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="0"
+      upper="1.32"
+      effort="5"
+      velocity="1" />
+    <dynamics
+      damping="0.1"
+      friction="0.1" />
+  </joint>
+</robot>
