@@ -40,7 +40,7 @@
         <xyz>0 0 1</xyz>
         <limit>
           <lower>0</lower>
-          <upper>0.5</upper>
+          <upper>0.1</upper>
           <effort>100</effort>
           <velocity>1</velocity>
         </limit>
@@ -512,8 +512,8 @@
       <hil_mode>0</hil_mode>
       <hil_state_level>0</hil_state_level>
       <vehicle_is_tailsitter>0</vehicle_is_tailsitter>
-      <send_vision_estimation>1</send_vision_estimation>
-      <send_odometry>0</send_odometry>
+      <send_vision_estimation>0</send_vision_estimation>
+      <send_odometry>1</send_odometry>
       <enable_lockstep>1</enable_lockstep>
       <use_tcp>1</use_tcp>
       <motorSpeedCommandPubTopic>/gazebo/command/motor_speed</motorSpeedCommandPubTopic>
@@ -583,6 +583,13 @@
           <joint_control_type>velocity</joint_control_type>
         </channel>
       </control_channels>
+    </plugin>
+
+    <plugin name='barometer_plugin' filename='libgazebo_barometer_plugin.so'>
+      <robotNamespace/>
+      <pubRate>50</pubRate>
+      <baroTopic>/baro</baroTopic>
+      <baroDriftPaPerSec>0</baroDriftPaPerSec>
     </plugin>
     
   </model>
