@@ -41,7 +41,7 @@
         <limit>
           <lower>0</lower>
           <upper>1.32</upper>
-          <effort>5</effort>
+          <effort>30</effort>
           <velocity>1</velocity>
         </limit>
         <dynamics>
@@ -94,7 +94,7 @@
         <limit>
           <lower>0</lower>
           <upper>1.32</upper>
-          <effort>5</effort>
+          <effort>30</effort>
           <velocity>1</velocity>
         </limit>
         <dynamics>
@@ -463,6 +463,19 @@
       <rotorVelocitySlowdownSim>10</rotorVelocitySlowdownSim>
     </plugin>
 
+    <plugin name='groundtruth_plugin' filename='libgazebo_groundtruth_plugin.so'>
+      <robotNamespace/>
+    </plugin>
+
+    <include>
+      <uri>model://gps</uri>
+      <pose>0.05 0 0.04 0 0 0</pose>
+      <name>gps0</name>
+    </include>
+    <joint name='gps0_joint' type='fixed'>
+      <child>gps0::link</child>
+      <parent>base_link</parent>
+    </joint>
     <plugin name='motor_1' filename='libgazebo_motor_model.so'>
       <robotNamespace/>
       <jointName>Motor1_front_left_joint</jointName>
