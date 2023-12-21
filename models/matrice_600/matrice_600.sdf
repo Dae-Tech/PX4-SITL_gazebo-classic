@@ -93,8 +93,8 @@
         <xyz>0 0 1</xyz>
         <limit>
           <lower>0</lower>
-          <upper>1.32</upper>
-          <effort>30</effort>
+          <upper>0.1</upper>
+          <effort>100</effort>
           <velocity>1</velocity>
         </limit>
         <dynamics>
