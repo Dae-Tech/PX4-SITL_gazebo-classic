@@ -480,5 +480,143 @@
       <motorSpeedPubTopic>/motor_speed/0</motorSpeedPubTopic>
       <rotorVelocitySlowdownSim>10</rotorVelocitySlowdownSim>
     </plugin>
+
+    <plugin name='mavlink_interface' filename='libgazebo_mavlink_interface.so'>
+      <robotNamespace></robotNamespace>
+      <imuSubTopic>/imu</imuSubTopic>
+      <magSubTopic>/mag</magSubTopic>
+      <baroSubTopic>/baro</baroSubTopic>
+      <mavlink_addr>INADDR_ANY</mavlink_addr>
+      <mavlink_tcp_port>{{ mavlink_tcp_port }}</mavlink_tcp_port>
+      <mavlink_udp_port>{{ mavlink_udp_port }}</mavlink_udp_port>
+      <serialEnabled>{{ serial_enabled }}</serialEnabled>
+      <serialDevice>{{ serial_device }}</serialDevice>
+      <baudRate>{{ serial_baudrate }}</baudRate>
+      <qgc_addr>INADDR_ANY</qgc_addr>
+      <qgc_udp_port>14550</qgc_udp_port>
+      <sdk_addr>INADDR_ANY</sdk_addr>
+      <sdk_udp_port>14540</sdk_udp_port>
+      <hil_mode>{{ hil_mode }}</hil_mode>
+      <hil_state_level>false</hil_state_level>
+      <enable_lockstep>true</enable_lockstep>
+      <use_tcp>true</use_tcp>
+      <motorSpeedCommandPubTopic>/gazebo/command/motor_speed</motorSpeedCommandPubTopic>
+      <control_channels>
+        <channel name="rotor0">
+          <input_index>0</input_index>
+          <input_offset>0</input_offset>
+          <input_scaling>1500</input_scaling>
+          <zero_position_disarmed>0</zero_position_disarmed>
+          <zero_position_armed>100</zero_position_armed>
+          <joint_control_type>velocity</joint_control_type>
+        </channel>
+        <channel name="rotor1">
+          <input_index>1</input_index>
+          <input_offset>0</input_offset>
+          <input_scaling>1500</input_scaling>
+          <zero_position_disarmed>0</zero_position_disarmed>
+          <zero_position_armed>100</zero_position_armed>
+          <joint_control_type>velocity</joint_control_type>
+        </channel>
+        <channel name="rotor2">
+          <input_index>2</input_index>
+          <input_offset>0</input_offset>
+          <input_scaling>1500</input_scaling>
+          <zero_position_disarmed>0</zero_position_disarmed>
+          <zero_position_armed>100</zero_position_armed>
+          <joint_control_type>velocity</joint_control_type>
+        </channel>
+        <channel name="rotor3">
+          <input_index>3</input_index>
+          <input_offset>0</input_offset>
+          <input_scaling>1500</input_scaling>
+          <zero_position_disarmed>0</zero_position_disarmed>
+          <zero_position_armed>100</zero_position_armed>
+          <joint_control_type>velocity</joint_control_type>
+        </channel>
+        <channel name="rotor4">
+          <input_index>4</input_index>
+          <input_offset>0</input_offset>
+          <input_scaling>1500</input_scaling>
+          <zero_position_disarmed>0</zero_position_disarmed>
+          <zero_position_armed>100</zero_position_armed>
+          <joint_control_type>velocity</joint_control_type>
+        </channel>
+       <channel name="rotor5">
+          <input_index>5</input_index>
+          <input_offset>0</input_offset>
+          <input_scaling>1500</input_scaling>
+          <zero_position_disarmed>0</zero_position_disarmed>
+          <zero_position_armed>100</zero_position_armed>
+          <joint_control_type>velocity</joint_control_type>
+        </channel>
+        <channel name="gimbal_roll">
+          <input_index>6</input_index>
+          <input_offset>0</input_offset>
+          <input_scaling>-3.1415</input_scaling>
+          <zero_position_disarmed>0</zero_position_disarmed>
+          <zero_position_armed>0</zero_position_armed>
+          <joint_control_type>position_gztopic</joint_control_type>
+          <gztopic>/gimbal_roll_cmd</gztopic>
+          <joint_name>typhoon_h480::cgo3_camera_joint</joint_name>
+        </channel>
+        <channel name="gimbal_pitch">
+          <input_index>7</input_index>
+          <input_offset>0</input_offset>
+          <input_scaling>-3.1415</input_scaling>
+          <zero_position_disarmed>0</zero_position_disarmed>
+          <zero_position_armed>0</zero_position_armed>
+          <joint_control_type>position_gztopic</joint_control_type>
+          <gztopic>/gimbal_pitch_cmd</gztopic>
+          <joint_name>typhoon_h480::cgo3_camera_joint</joint_name>
+        </channel>
+        <channel name="gimbal_yaw">
+          <input_index>8</input_index>
+          <input_offset>0</input_offset>
+          <input_scaling>-3.1415</input_scaling>
+          <zero_position_disarmed>0</zero_position_disarmed>
+          <zero_position_armed>0</zero_position_armed>
+          <joint_control_type>position_gztopic</joint_control_type>
+          <gztopic>/gimbal_yaw_cmd</gztopic>
+          <joint_name>typhoon_h480::cgo3_vertical_arm_joint</joint_name>
+        </channel>
+        <channel name="left_leg">
+          <input_index>9</input_index>
+          <input_offset>1</input_offset>
+          <input_scaling>0.5</input_scaling>
+          <zero_position_disarmed>0</zero_position_disarmed>
+          <zero_position_armed>0</zero_position_armed>
+          <joint_control_type>position</joint_control_type>
+          <joint_control_pid>
+            <p>3.5</p>
+            <i>0.5</i>
+            <d>0</d>
+            <iMax>4</iMax>
+            <iMin>-4</iMin>
+            <cmdMax>6</cmdMax>
+            <cmdMin>-6</cmdMin>
+          </joint_control_pid>
+          <joint_name>left_leg_joint</joint_name>
+        </channel>
+        <channel name="right_leg">
+          <input_index>10</input_index>
+          <input_offset>1</input_offset>
+          <input_scaling>0.5</input_scaling>
+          <zero_position_disarmed>0</zero_position_disarmed>
+          <zero_position_armed>0</zero_position_armed>
+          <joint_control_type>position</joint_control_type>
+          <joint_control_pid>
+            <p>3.5</p>
+            <i>0.5</i>
+            <d>0</d>
+            <iMax>4</iMax>
+            <iMin>-4</iMin>
+            <cmdMax>6</cmdMax>
+            <cmdMin>-6</cmdMin>
+          </joint_control_pid>
+          <joint_name>right_leg_joint</joint_name>
+        </channel>
+      </control_channels>
+    </plugin>
   </model>
 </sdf>
