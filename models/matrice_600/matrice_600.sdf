@@ -591,6 +591,15 @@
       <baroTopic>/baro</baroTopic>
       <baroDriftPaPerSec>0</baroDriftPaPerSec>
     </plugin>
+
+    <plugin name='magnetometer_plugin' filename='libgazebo_magnetometer_plugin.so'>
+      <robotNamespace/>
+      <pubRate>100</pubRate>
+      <noiseDensity>0.0004</noiseDensity>
+      <randomWalk>6.4e-06</randomWalk>
+      <biasCorrelationTime>600</biasCorrelationTime>
+      <magTopic>/mag</magTopic>
+    </plugin>
     
   </model>
 </sdf>
