@@ -67,6 +67,7 @@
       </axis>
     </joint>
     
+    <!--
     <link name='LG_left_link'>
       <pose relative_to='LG_left_joint'>0 0 0 0 -0 0</pose>
       <inertial>
@@ -217,7 +218,7 @@
         </ode>
       </physics>
     </joint>
-
+    -->
 
     <joint name='Motor3_joint' type='revolute'>
       <pose relative_to='base_link'>0.50036 0.2886 0.012238 -3.0753 0.11027 -2.1217</pose>
