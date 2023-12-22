@@ -536,6 +536,8 @@
       <child>gps::link</child>
       <parent>base_link</parent>
     </joint>
+
+    <!-- 
     <plugin name='motor_1' filename='libgazebo_motor_model.so'>
       <robotNamespace/>
       <jointName>Motor1_joint</jointName>
@@ -638,6 +640,7 @@
       <motorSpeedPubTopic>/motor_speed/0</motorSpeedPubTopic>
       <rotorVelocitySlowdownSim>10</rotorVelocitySlowdownSim>
     </plugin>
+    -->
      <plugin name='mavlink_interface' filename='libgazebo_mavlink_interface.so'>
       <robotNamespace/>
       <imuSubTopic>/imu</imuSubTopic>
