@@ -67,27 +67,6 @@
       </axis>
     </joint>
     
-    
-    <joint name='LG_left_joint' type='revolute'>
-      <pose relative_to='base_link'>0.019409 0.098608 -0.1042 1.5708 -0.045048 1.5708</pose>
-      <parent>base_link</parent>
-      <child>LG_left_link</child>
-      <axis>
-        <xyz>0 0 1</xyz>
-        <limit>
-          <lower>0</lower>
-          <upper>0.1</upper>
-          <effort>300</effort>
-          <velocity>1</velocity>
-        </limit>
-        <dynamics>
-          <damping>0.1</damping>
-          <friction>0.1</friction>
-          <spring_reference>0</spring_reference>
-          <spring_stiffness>0</spring_stiffness>
-        </dynamics>
-      </axis>
-    </joint>
     <link name='LG_left_link'>
       <pose relative_to='LG_left_joint'>0 0 0 0 -0 0</pose>
       <inertial>
@@ -110,6 +89,22 @@
             <uri>model://matrice_600/meshes/LG_left_link.STL</uri>
           </mesh>
         </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>1</mu>
+              <mu2>1</mu2>
+            </ode>
+          </friction>
+          <contact>
+            <ode>
+              <kp>1e+8</kp>
+              <kd>1</kd>
+              <max_vel>0.01</max_vel>
+              <min_depth>0.001</min_depth>
+            </ode>
+          </contact>
+        </surface>
       </collision>
       <visual name='LG_left_link_visual'>
         <pose>0 0 0 0 -0 0</pose>
@@ -121,26 +116,33 @@
         </geometry>
       </visual>
     </link>
-    <joint name='Lg_right_joint' type='revolute'>
-      <pose relative_to='base_link'>0.019409 -0.098708 -0.1042 1.5708 -0.045048 -1.5708</pose>
+    <joint name='LG_left_joint' type='revolute'>
+      <pose relative_to='base_link'>0.019409 0.098608 -0.1042 1.5708 -0.045048 1.5708</pose>
       <parent>base_link</parent>
-      <child>LG_right_link</child>
+      <child>LG_left_link</child>
       <axis>
         <xyz>0 0 1</xyz>
         <limit>
           <lower>0</lower>
-          <upper>0.1</upper>
-          <effort>300</effort>
+          <upper>1</upper>
+          <effort>100</effort>
+          <stiffness>100000000</stiffness>
           <velocity>1</velocity>
+          <dissipation>1</dissipation>
         </limit>
         <dynamics>
           <damping>0.1</damping>
-          <friction>0.1</friction>
-          <spring_reference>0</spring_reference>
-          <spring_stiffness>0</spring_stiffness>
         </dynamics>
+        <use_parent_model_frame>1</use_parent_model_frame>
       </axis>
+      <physics>
+        <ode>
+          <implicit_spring_damper>1</implicit_spring_damper>
+        </ode>
+      </physics>
     </joint>
+    
+    
     <link name='LG_right_link'>
       <pose relative_to='Lg_right_joint'>0 0 0 0 -0 0</pose>
       <inertial>
@@ -163,6 +165,22 @@
             <uri>model://matrice_600/meshes/LG_right_link.STL</uri>
           </mesh>
         </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>1</mu>
+              <mu2>1</mu2>
+            </ode>
+          </friction>
+          <contact>
+            <ode>
+              <kp>1e+8</kp>
+              <kd>1</kd>
+              <max_vel>0.01</max_vel>
+              <min_depth>0.001</min_depth>
+            </ode>
+          </contact>
+        </surface>
       </collision>
       <visual name='LG_right_link_visual'>
         <pose>0 0 0 0 -0 0</pose>
@@ -174,6 +192,33 @@
         </geometry>
       </visual>
     </link>
+    <joint name='Lg_right_joint' type='revolute'>
+      <pose relative_to='base_link'>0.019409 -0.098708 -0.1042 1.5708 -0.045048 -1.5708</pose>
+      <parent>base_link</parent>
+      <child>LG_right_link</child>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          <lower>0</lower>
+          <upper>1</upper>
+          <effort>100</effort>
+          <stiffness>100000000</stiffness>
+          <velocity>1</velocity>
+          <dissipation>1</dissipation>
+        </limit>
+        <dynamics>
+          <damping>0.1</damping>
+        </dynamics>
+        <use_parent_model_frame>1</use_parent_model_frame>
+      </axis>
+      <physics>
+        <ode>
+          <implicit_spring_damper>1</implicit_spring_damper>
+        </ode>
+      </physics>
+    </joint>
+
+
     <joint name='Motor3_joint' type='revolute'>
       <pose relative_to='base_link'>0.50036 0.2886 0.012238 -3.0753 0.11027 -2.1217</pose>
       <parent>base_link</parent>
