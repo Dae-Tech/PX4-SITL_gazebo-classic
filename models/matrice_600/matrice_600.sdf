@@ -33,7 +33,7 @@
       </visual>
     </link>
 
-    <link name='imu_link'>
+    <link name='/imu_link'>
       <pose>0 0 0.02 0 0 0</pose>
       <inertial>
         <pose>0 0 0 0 0 0</pose>
@@ -48,7 +48,7 @@
         </inertia>
       </inertial>
     </link>
-    <joint name='imu_joint' type='revolute'>
+    <joint name='/imu_joint' type='revolute'>
       <child>imu_link</child>
       <parent>base_link</parent>
       <axis>
@@ -242,7 +242,7 @@
         </dynamics>
       </axis>
     </joint>
-    <link name='Motor5link'>
+    <link name='Motor5_link'>
       <pose relative_to='Motor5_joint'>0 0 0 0 -0 0</pose>
       <inertial>
         <pose>0.000906 -4e-06 0.072036 0 -0 0</pose>
