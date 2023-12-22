@@ -32,7 +32,7 @@
         </geometry>
       </visual>
     </link>
-
+<!--
     <link name='/imu_link'>
       <pose>0 0 0.02 0 0 0</pose>
       <inertial>
@@ -66,8 +66,9 @@
         <use_parent_model_frame>1</use_parent_model_frame>
       </axis>
     </joint>
+    -->
     
-    <!--
+    
     <link name='LG_left_link'>
       <pose relative_to='LG_left_joint'>0 0 0 0 -0 0</pose>
       <inertial>
@@ -125,7 +126,7 @@
         <xyz>0 0 1</xyz>
         <limit>
           <lower>0</lower>
-          <upper>0.1</upper>
+          <upper>0</upper>
           <effort>300</effort>
           <stiffness>100000000</stiffness>
           <velocity>1</velocity>
@@ -201,7 +202,7 @@
         <xyz>0 0 1</xyz>
         <limit>
           <lower>0</lower>
-          <upper>0.1</upper>
+          <upper>0</upper>
           <effort>300</effort>
           <stiffness>100000000</stiffness>
           <velocity>1</velocity>
@@ -218,7 +219,7 @@
         </ode>
       </physics>
     </joint>
-    -->
+   
 
     <joint name='Motor3_joint' type='revolute'>
       <pose relative_to='base_link'>0.50036 0.2886 0.012238 -3.0753 0.11027 -2.1217</pose>
@@ -527,7 +528,7 @@
     <plugin name='groundtruth_plugin' filename='libgazebo_groundtruth_plugin.so'>
       <robotNamespace/>
     </plugin>
-
+<!--
     <include>
       <uri>model://gps</uri>
       <pose>0.05 0 0.04 0 0 0</pose>
@@ -537,7 +538,7 @@
       <child>gps::link</child>
       <parent>base_link</parent>
     </joint>
-
+-->
     <!-- 
     <plugin name='motor_1' filename='libgazebo_motor_model.so'>
       <robotNamespace/>
@@ -718,6 +719,7 @@
       </control_channels>
     </plugin>
 
+    
     <plugin name='barometer_plugin' filename='libgazebo_barometer_plugin.so'>
       <robotNamespace/>
       <pubRate>50</pubRate>
