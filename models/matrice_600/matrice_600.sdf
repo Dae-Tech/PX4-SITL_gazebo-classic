@@ -32,7 +32,8 @@
         </geometry>
       </visual>
     </link>
-    <link name='/imu_link'>
+
+    <link name='imu_link'>
       <pose>0 0 0.02 0 0 0</pose>
       <inertial>
         <pose>0 0 0 0 0 0</pose>
@@ -47,8 +48,8 @@
         </inertia>
       </inertial>
     </link>
-    <joint name='/imu_joint' type='revolute'>
-      <child>/imu_link</child>
+    <joint name='imu_joint' type='revolute'>
+      <child>imu_link</child>
       <parent>base_link</parent>
       <axis>
         <xyz>1 0 0</xyz>
@@ -65,6 +66,8 @@
         <use_parent_model_frame>1</use_parent_model_frame>
       </axis>
     </joint>
+    
+    
     <joint name='LG_left_joint' type='revolute'>
       <pose relative_to='base_link'>0.019409 0.098608 -0.1042 1.5708 -0.045048 1.5708</pose>
       <parent>base_link</parent>
@@ -633,6 +636,7 @@
       <accelerometerRandomWalk>0.006</accelerometerRandomWalk>
       <accelerometerBiasCorrelationTime>300.0</accelerometerBiasCorrelationTime>
       <accelerometerTurnOnBiasSigma>0.196</accelerometerTurnOnBiasSigma>
+    </plugin>
     
   </model>
 </sdf>
