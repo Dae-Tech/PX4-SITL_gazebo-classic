@@ -124,7 +124,7 @@
         <xyz>0 0 1</xyz>
         <limit>
           <lower>0</lower>
-          <upper>1</upper>
+          <upper>0.1</upper>
           <effort>300</effort>
           <stiffness>100000000</stiffness>
           <velocity>1</velocity>
@@ -200,7 +200,7 @@
         <xyz>0 0 1</xyz>
         <limit>
           <lower>0</lower>
-          <upper>1</upper>
+          <upper>0.1</upper>
           <effort>300</effort>
           <stiffness>100000000</stiffness>
           <velocity>1</velocity>
