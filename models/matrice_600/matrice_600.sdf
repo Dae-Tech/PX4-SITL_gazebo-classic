@@ -908,27 +908,10 @@
         </ode>
       </physics>
     </joint>
-    <joint name='LG_left_joint' type='revolute'>
+   <joint name='LG_left_joint' type='fixed'>
       <parent>base_link</parent>
       <child>LG_left_link</child>
       <pose>0 0 0 0 -0 0</pose>
-      <axis>
-        <xyz>0 0 1</xyz>
-        <limit>
-          <lower>0</lower>
-          <upper>0.1</upper>
-          <effort>100</effort>
-          <velocity>-1</velocity>
-          <stiffness>100000000</stiffness>
-          <dissipation>1</dissipation>
-        </limit>
-        <dynamics>
-          <spring_reference>0</spring_reference>
-          <spring_stiffness>0</spring_stiffness>
-          <damping>0.1</damping>
-          <friction>0</friction>
-        </dynamics>
-      </axis>
       <physics>
         <ode>
           <limit>
@@ -942,27 +925,10 @@
         </ode>
       </physics>
     </joint>
-    <joint name='Lg_right_joint' type='revolute'>
+    <joint name='Lg_right_joint' type='fixed'>
       <parent>base_link</parent>
       <child>LG_right_link</child>
       <pose>0 0 0 0 -0 0</pose>
-      <axis>
-        <xyz>0 0 1</xyz>
-        <limit>
-          <lower>0</lower>
-          <upper>0.1</upper>
-          <effort>100</effort>
-          <velocity>-1</velocity>
-          <stiffness>100000000</stiffness>
-          <dissipation>1</dissipation>
-        </limit>
-        <dynamics>
-          <spring_reference>0</spring_reference>
-          <spring_stiffness>0</spring_stiffness>
-          <damping>0.1</damping>
-          <friction>0</friction>
-        </dynamics>
-      </axis>
       <physics>
         <ode>
           <limit>
