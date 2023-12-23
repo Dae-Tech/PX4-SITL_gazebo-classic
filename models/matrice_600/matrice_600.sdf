@@ -919,7 +919,7 @@
           <upper>1</upper>
           <effort>100</effort>
           <velocity>-1</velocity>
-          <stiffness>100000000</stifness>
+          <stiffness>100000000</stiffness>
           <dissipation>1</dissipation>
         </limit>
         <dynamics>
@@ -953,7 +953,7 @@
           <upper>1</upper>
           <effort>100</effort>
           <velocity>-1</velocity>
-          <stiffness>100000000</stifness>
+          <stiffness>100000000</stiffness>
           <dissipation>1</dissipation>
         </limit>
         <dynamics>
