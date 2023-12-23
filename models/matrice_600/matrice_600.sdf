@@ -38,7 +38,7 @@
         <pose>0 0 0 0 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>model://meshes/base_link.STL</uri>
+            <uri>model://matrice_600/meshes/base_link.STL</uri>
             <scale>1 1 1</scale>
           </mesh>
         </geometry>
@@ -154,7 +154,7 @@
         <pose>0 0 0 0 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>model://meshes/LG_left_link.STL</uri>
+            <uri>model://matrice_600/meshes/LG_left_link.STL</uri>
             <scale>1 1 1</scale>
           </mesh>
         </geometry>
@@ -242,7 +242,7 @@
         <pose>0 0 0 0 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>model://meshes/LG_right_link.STL</uri>
+            <uri>model://matrice_600/meshes/LG_right_link.STL</uri>
             <scale>1 1 1</scale>
           </mesh>
         </geometry>
@@ -330,7 +330,7 @@
         <pose>0 0 0 0 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>model://meshes/Motor4_mid_right_link.STL</uri>
+            <uri>model://matrice_600/meshes/Motor4_mid_right_link.STL</uri>
             <scale>1 1 1</scale>
           </mesh>
         </geometry>
@@ -418,7 +418,7 @@
         <pose>0 0 0 0 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>model://meshes/Motor3_mid_left_link.STL</uri>
+            <uri>model://matrice_600/meshes/Motor3_mid_left_link.STL</uri>
             <scale>1 1 1</scale>
           </mesh>
         </geometry>
@@ -491,6 +491,7 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
+     
             <uri>model://matrice_600/meshes/Motor1_front_left_link.STL</uri>
           </mesh>
         </geometry>
@@ -506,7 +507,7 @@
         <pose>0 0 0 0 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>model://meshes/Motor1_front_left_link.STL</uri>
+            <uri>model://matrice_600/meshes/Motor1_front_left_link.STL</uri>
             <scale>1 1 1</scale>
           </mesh>
         </geometry>
@@ -594,7 +595,7 @@
         <pose>0 0 0 0 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>model://meshes/Motor6_rear_right_link.STL</uri>
+            <uri>model://matrice_600/meshes/Motor6_rear_right_link.STL</uri>
             <scale>1 1 1</scale>
           </mesh>
         </geometry>
@@ -682,7 +683,7 @@
         <pose>0 0 0 0 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>model://meshes/Motor2_front_right_link.STL</uri>
+            <uri>model://matrice_600/meshes/Motor2_front_right_link.STL</uri>
             <scale>1 1 1</scale>
           </mesh>
         </geometry>
@@ -770,7 +771,7 @@
         <pose>0 0 0 0 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>model://meshes/Motor5_rear_left_link.STL</uri>
+            <uri>model://matrice_600/meshes/Motor5_rear_left_link.STL</uri>
             <scale>1 1 1</scale>
           </mesh>
         </geometry>
