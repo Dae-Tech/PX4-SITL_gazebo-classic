@@ -1,7 +1,6 @@
 <?xml version='1.0'?>
 <sdf version='1.7'>
   <model name='matrice_600'>
-  <pose>0 0 0.56 0 0 0</pose>
     <link name='base_link'>
       <inertial>
         <pose>-0.003207 0.001698 -0.022184 0 -0 0</pose>
