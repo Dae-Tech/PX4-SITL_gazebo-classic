@@ -919,6 +919,8 @@
           <upper>1</upper>
           <effort>100</effort>
           <velocity>-1</velocity>
+          <stiffness>100000000</stifness>
+          <dissipation>1</dissipation>
         </limit>
         <dynamics>
           <spring_reference>0</spring_reference>
@@ -951,6 +953,8 @@
           <upper>1</upper>
           <effort>100</effort>
           <velocity>-1</velocity>
+          <stiffness>100000000</stifness>
+          <dissipation>1</dissipation>
         </limit>
         <dynamics>
           <spring_reference>0</spring_reference>
