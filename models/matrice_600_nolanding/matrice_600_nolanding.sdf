@@ -1,6 +1,7 @@
 <?xml version='1.0'?>
 <sdf version='1.7'>
-  <model name='matrice_600_wl'>
+  <model name='matrice_600_nolanding'>
+    <pose>0 0 0.6 0 0 0</pose>
     <link name='base_link'>
       <inertial>
         <pose>-0.001268 0.003183 0.533364 0 -0 0</pose>
@@ -24,7 +25,7 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>model://matrice_600_wl/meshes/base_link.STL</uri>
+            <uri>model://matrice_600_nolanding/meshes/base_link.STL</uri>
           </mesh>
         </geometry>
         <material>
@@ -120,7 +121,7 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>model://matrice_600_wl/meshes/rotor1_link.STL</uri>
+            <uri>model://matrice_600_nolanding/meshes/rotor1_link.STL</uri>
           </mesh>
         </geometry>
         <material>
@@ -135,7 +136,7 @@
         <pose>0 0 0 0 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/windrobo/model_editor_models/matrice_600_wl/meshes/rotor1_link.STL</uri>
+            <uri>/home/windrobo/model_editor_models/matrice_600_nolanding/meshes/rotor1_link.STL</uri>
             <scale>1 1 1</scale>
           </mesh>
         </geometry>
@@ -208,7 +209,7 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>model://matrice_600_wl/meshes/rotor2_link.STL</uri>
+            <uri>model://matrice_600_nolanding/meshes/rotor2_link.STL</uri>
           </mesh>
         </geometry>
         <material>
@@ -223,7 +224,7 @@
         <pose>0 0 0 0 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/windrobo/model_editor_models/matrice_600_wl/meshes/rotor2_link.STL</uri>
+            <uri>/home/windrobo/model_editor_models/matrice_600_nolanding/meshes/rotor2_link.STL</uri>
             <scale>1 1 1</scale>
           </mesh>
         </geometry>
@@ -296,7 +297,7 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>model://matrice_600_wl/meshes/rotor3_link.STL</uri>
+            <uri>model://matrice_600_nolanding/meshes/rotor3_link.STL</uri>
           </mesh>
         </geometry>
         <material>
@@ -311,7 +312,7 @@
         <pose>0 0 0 0 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/windrobo/model_editor_models/matrice_600_wl/meshes/rotor3_link.STL</uri>
+            <uri>/home/windrobo/model_editor_models/matrice_600_nolanding/meshes/rotor3_link.STL</uri>
             <scale>1 1 1</scale>
           </mesh>
         </geometry>
@@ -384,7 +385,7 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>model://matrice_600_wl/meshes/rotor4_link.STL</uri>
+            <uri>model://matrice_600_nolanding/meshes/rotor4_link.STL</uri>
           </mesh>
         </geometry>
         <material>
@@ -399,7 +400,7 @@
         <pose>0 0 0 0 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/windrobo/model_editor_models/matrice_600_wl/meshes/rotor4_link.STL</uri>
+            <uri>/home/windrobo/model_editor_models/matrice_600_nolanding/meshes/rotor4_link.STL</uri>
             <scale>1 1 1</scale>
           </mesh>
         </geometry>
@@ -472,7 +473,7 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>model://matrice_600_wl/meshes/rotor5_link.STL</uri>
+            <uri>model://matrice_600_nolanding/meshes/rotor5_link.STL</uri>
           </mesh>
         </geometry>
         <material>
@@ -487,7 +488,7 @@
         <pose>0 0 0 0 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/windrobo/model_editor_models/matrice_600_wl/meshes/rotor5_link.STL</uri>
+            <uri>/home/windrobo/model_editor_models/matrice_600_nolanding/meshes/rotor5_link.STL</uri>
             <scale>1 1 1</scale>
           </mesh>
         </geometry>
@@ -560,7 +561,7 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>model://matrice_600_wl/meshes/rotor6_link.STL</uri>
+            <uri>model://matrice_600_nolanding/meshes/rotor6_link.STL</uri>
           </mesh>
         </geometry>
         <material>
@@ -575,7 +576,7 @@
         <pose>0 0 0 0 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/windrobo/model_editor_models/matrice_600_wl/meshes/rotor6_link.STL</uri>
+            <uri>/home/windrobo/model_editor_models/matrice_600_nolanding/meshes/rotor6_link.STL</uri>
             <scale>1 1 1</scale>
           </mesh>
         </geometry>
