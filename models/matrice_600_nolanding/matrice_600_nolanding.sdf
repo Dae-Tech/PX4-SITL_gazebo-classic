@@ -884,7 +884,7 @@
     <plugin name='rotor1_motor_model' filename='libgazebo_motor_model.so'>
       <robotNamespace/>
       <jointName>rotor1_joint</jointName>
-      <linkName>rotor1</linkName>
+      <linkName>rotor1_link</linkName>
       <turningDirection>cw</turningDirection>
       <timeConstantUp>0.0125</timeConstantUp>
       <timeConstantDown>0.025</timeConstantDown>
@@ -902,7 +902,7 @@
     <plugin name='rotor2_motor_model' filename='libgazebo_motor_model.so'>
       <robotNamespace/>
       <jointName>rotor2_joint</jointName>
-      <linkName>rotor2</linkName>
+      <linkName>rotor2_link</linkName>
       <turningDirection>ccw</turningDirection>
       <timeConstantUp>0.0125</timeConstantUp>
       <timeConstantDown>0.025</timeConstantDown>
@@ -920,7 +920,7 @@
     <plugin name='rotor3_motor_model' filename='libgazebo_motor_model.so'>
       <robotNamespace/>
       <jointName>rotor3_joint</jointName>
-      <linkName>rotor3</linkName>
+      <linkName>rotor3_link</linkName>
       <turningDirection>cw</turningDirection>
       <timeConstantUp>0.0125</timeConstantUp>
       <timeConstantDown>0.025</timeConstantDown>
@@ -938,7 +938,7 @@
     <plugin name='rotor4_motor_model' filename='libgazebo_motor_model.so'>
       <robotNamespace/>
       <jointName>rotor4_joint</jointName>
-      <linkName>rotor4</linkName>
+      <linkName>rotor4_link</linkName>
       <turningDirection>ccw</turningDirection>
       <timeConstantUp>0.0125</timeConstantUp>
       <timeConstantDown>0.025</timeConstantDown>
@@ -956,7 +956,7 @@
     <plugin name='rotor5_motor_model' filename='libgazebo_motor_model.so'>
       <robotNamespace/>
       <jointName>rotor5_joint</jointName>
-      <linkName>rotor5</linkName>
+      <linkName>rotor5_link</linkName>
       <turningDirection>ccw</turningDirection>
       <timeConstantUp>0.0125</timeConstantUp>
       <timeConstantDown>0.025</timeConstantDown>
@@ -975,7 +975,7 @@
     <plugin name='rotor6_motor_model' filename='libgazebo_motor_model.so'>
       <robotNamespace/>
       <jointName>rotor6_joint</jointName>
-      <linkName>rotor6</linkName>
+      <linkName>rotor6_link</linkName>
       <turningDirection>cw</turningDirection>
       <timeConstantUp>0.0125</timeConstantUp>
       <timeConstantDown>0.025</timeConstantDown>
