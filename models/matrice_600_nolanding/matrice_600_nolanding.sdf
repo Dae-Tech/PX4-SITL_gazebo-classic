@@ -133,8 +133,6 @@
         <cast_shadows>1</cast_shadows>
       </visual>
       <collision name='rotor1_link_collision'>
-        <laser_retro>0</laser_retro>
-        <max_contacts>10</max_contacts>
         <pose>0 0 0 0 -0 0</pose>
         <geometry>
           <box>
@@ -180,8 +178,6 @@
         <cast_shadows>1</cast_shadows>
       </visual>
       <collision name='rotor2_link_collision'>
-        <laser_retro>0</laser_retro>
-        <max_contacts>10</max_contacts>
         <pose>0 0 0 0 -0 0</pose>
         <geometry>
           <box>
@@ -227,8 +223,6 @@
         <cast_shadows>1</cast_shadows>
       </visual>
       <collision name='rotor3_link_collision'>
-        <laser_retro>0</laser_retro>
-        <max_contacts>10</max_contacts>
         <pose>0 0 0 0 -0 0</pose>
         <geometry>
           <box>
@@ -274,8 +268,6 @@
         <cast_shadows>1</cast_shadows>
       </visual>
       <collision name='rotor4_link_collision'>
-        <laser_retro>0</laser_retro>
-        <max_contacts>10</max_contacts>
         <pose>0 0 0 0 -0 0</pose>
         <geometry>
           <box>
@@ -321,8 +313,6 @@
         <cast_shadows>1</cast_shadows>
       </visual>
       <collision name='rotor5_link_collision'>
-        <laser_retro>0</laser_retro>
-        <max_contacts>10</max_contacts>
         <pose>0 0 0 0 -0 0</pose>
         <geometry>
           <box>
@@ -368,8 +358,6 @@
         <cast_shadows>1</cast_shadows>
       </visual>
       <collision name='rotor6_link_collision'>
-        <laser_retro>0</laser_retro>
-        <max_contacts>10</max_contacts>
         <pose>0 0 0 0 -0 0</pose>
         <geometry>
           <box>
