@@ -461,10 +461,9 @@
       <axis>
         <xyz>0 0.13917 0.99027</xyz>
         <limit>
-          <lower>-6.283</lower>
-          <upper>6.283</upper>
+          <lower>-1e+16</lower>
+          <upper>1e+16</upper>
           <effort>0.001</effort>
-          <velocity>0</velocity>
         </limit>
         <dynamics>
           <spring_reference>0</spring_reference>
@@ -493,10 +492,9 @@
       <axis>
         <xyz>0 -0.13917 0.99027</xyz>
         <limit>
-          <lower>-6.283</lower>
-          <upper>6.283</upper>
+          <lower>-1e+16</lower>
+          <upper>1e+16</upper>
           <effort>0.001</effort>
-          <velocity>0</velocity>
         </limit>
         <dynamics>
           <spring_reference>0</spring_reference>
@@ -525,10 +523,9 @@
       <axis>
         <xyz>0.12053 0.069587 -0.99027</xyz>
         <limit>
-          <lower>-6.283</lower>
-          <upper>6.283</upper>
+          <lower>-1e+16</lower>
+          <upper>1e+16</upper>
           <effort>0.001</effort>
-          <velocity>0</velocity>
         </limit>
         <dynamics>
           <spring_reference>0</spring_reference>
@@ -557,10 +554,9 @@
       <axis>
         <xyz>-0.12053 -0.069587 -0.99027</xyz>
         <limit>
-          <lower>-6.283</lower>
-          <upper>6.283</upper>
+          <lower>-1e+16</lower>
+          <upper>1e+16</upper>
           <effort>0.001</effort>
-          <velocity>0</velocity>
         </limit>
         <dynamics>
           <spring_reference>0</spring_reference>
@@ -589,10 +585,9 @@
       <axis>
         <xyz>0.12053 -0.069587 -0.99027</xyz>
         <limit>
-          <lower>-6.283</lower>
-          <upper>6.283</upper>
+          <lower>-1e+16</lower>
+          <upper>1e+16</upper>
           <effort>0.001</effort>
-          <velocity>0</velocity>
         </limit>
         <dynamics>
           <spring_reference>0</spring_reference>
@@ -621,10 +616,9 @@
       <axis>
         <xyz>-0.12053 0.069587 -0.99027</xyz>
         <limit>
-          <lower>-6.283</lower>
-          <upper>6.283</upper>
+          <lower>-1e+16</lower>
+          <upper>1e+16</upper>
           <effort>0.001</effort>
-          <velocity>0</velocity>
         </limit>
         <dynamics>
           <spring_reference>0</spring_reference>
