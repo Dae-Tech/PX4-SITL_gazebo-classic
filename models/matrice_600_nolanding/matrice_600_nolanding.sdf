@@ -126,9 +126,6 @@
           <izz>4.47913e-05</izz>
         </inertia>
       </inertial>
-      <self_collide>0</self_collide>
-      <enable_wind>0</enable_wind>
-      <kinematic>0</kinematic>
       <visual name='rotor1_link_visual'>
         <pose>0 0 0 0 -0 0</pose>
         <geometry>
@@ -176,9 +173,6 @@
           <izz>4.44675e-05</izz>
         </inertia>
       </inertial>
-      <self_collide>0</self_collide>
-      <enable_wind>0</enable_wind>
-      <kinematic>0</kinematic>
       <visual name='rotor2_link_visual'>
         <pose>0 0 0 0 -0 0</pose>
         <geometry>
@@ -226,9 +220,6 @@
           <izz>4.50862e-05</izz>
         </inertia>
       </inertial>
-      <self_collide>0</self_collide>
-      <enable_wind>0</enable_wind>
-      <kinematic>0</kinematic>
       <visual name='rotor3_link_visual'>
         <pose>0 0 0 0 -0 0</pose>
         <geometry>
@@ -276,9 +267,6 @@
           <izz>4.50713e-05</izz>
         </inertia>
       </inertial>
-      <self_collide>0</self_collide>
-      <enable_wind>0</enable_wind>
-      <kinematic>0</kinematic>
       <visual name='rotor4_link_visual'>
         <pose>0 0 0 0 -0 0</pose>
         <geometry>
@@ -326,9 +314,6 @@
           <izz>4.5065e-05</izz>
         </inertia>
       </inertial>
-      <self_collide>0</self_collide>
-      <enable_wind>0</enable_wind>
-      <kinematic>0</kinematic>
       <visual name='rotor5_link_visual'>
         <pose>0 0 0 0 -0 0</pose>
         <geometry>
@@ -376,9 +361,6 @@
           <izz>4.4463e-05</izz>
         </inertia>
       </inertial>
-      <self_collide>0</self_collide>
-      <enable_wind>0</enable_wind>
-      <kinematic>0</kinematic>
       <visual name='rotor6_link_visual'>
         <pose>0 0 0 0 -0 0</pose>
         <geometry>
