@@ -16,9 +16,7 @@
         </inertia>
       </inertial>
       <self_collide>0</self_collide>
-      <enable_wind>0</enable_wind>
-      <kinematic>0</kinematic>
-      <pose>0 0 0 0 -0 0</pose>
+      <velocity_decay/>
       <gravity>1</gravity>
       <visual name='base_link_visual'>
         <pose>0 0 0 0 -0 0</pose>
