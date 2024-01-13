@@ -119,15 +119,10 @@
       <visual name='rotor1_link_visual'>
         <pose>0 0 0 0 0 0</pose>
         <geometry>
-          <box>
-            <size>0.00002 0.00002 0.000001</size>
-          </box>
-          <!-- 
           <mesh>
             <scale>1 1 1</scale>
             <uri>model://matrice_600_nolanding/meshes/rotor1_link.STL</uri>
           </mesh>
-          -->
         </geometry>
         <material>
           <shader type='pixel' />
@@ -169,15 +164,10 @@
       <visual name='rotor2_link_visual'>
         <pose>0 0 0 0 0 0</pose>
         <geometry>
-          <box>
-            <size>0.00002 0.00002 0.000001</size>
-          </box>
-          <!-- 
           <mesh>
             <scale>1 1 1</scale>
             <uri>model://matrice_600_nolanding/meshes/rotor2_link.STL</uri>
           </mesh>
-          -->
         </geometry>
         <material>
           <shader type='pixel' />
@@ -219,15 +209,10 @@
       <visual name='rotor3_link_visual'>
         <pose>0 0 0 0 0 0</pose>
         <geometry>
-          <box>
-            <size>0.00002 0.00002 0.000001</size>
-          </box>
-          <!-- 
           <mesh>
             <scale>1 1 1</scale>
             <uri>model://matrice_600_nolanding/meshes/rotor3_link.STL</uri>
           </mesh>
-          -->
         </geometry>
         <material>
           <shader type='pixel' />
@@ -269,15 +254,10 @@
       <visual name='rotor4_link_visual'>
         <pose>0 0 0 0 0 0</pose>
         <geometry>
-          <box>
-            <size>0.00002 0.00002 0.000001</size>
-          </box>
-          <!-- 
           <mesh>
             <scale>1 1 1</scale>
             <uri>model://matrice_600_nolanding/meshes/rotor4_link.STL</uri>
           </mesh>
-          -->
         </geometry>
         <material>
           <shader type='pixel' />
@@ -319,15 +299,10 @@
       <visual name='rotor5_link_visual'>
         <pose>0 0 0 0 0 0</pose>
         <geometry>
-          <box>
-            <size>0.00002 0.00002 0.000001</size>
-          </box>
-          <!-- 
           <mesh>
             <scale>1 1 1</scale>
             <uri>model://matrice_600_nolanding/meshes/rotor5_link.STL</uri>
           </mesh>
-          -->
         </geometry>
         <material>
           <shader type='pixel' />
@@ -369,15 +344,10 @@
       <visual name='rotor6_link_visual'>
         <pose>0 0 0 0 0 0</pose>
         <geometry>
-          <box>
-            <size>0.00002 0.00002 0.000001</size>
-          </box>
-          <!-- 
           <mesh>
             <scale>1 1 1</scale>
             <uri>model://matrice_600_nolanding/meshes/rotor6_link.STL</uri>
           </mesh>
-          -->
         </geometry>
         <material>
           <shader type='pixel' />
