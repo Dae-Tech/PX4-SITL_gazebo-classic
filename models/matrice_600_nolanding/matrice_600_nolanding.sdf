@@ -35,11 +35,11 @@
           </mesh>
         </geometry>
         <material>
-          <shader type='pixel'>
-          </shader>
+          <script>
+            <name>Gazebo/Blue</name>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+          </script>
         </material>
-        <transparency>0</transparency>
-        <cast_shadows>1</cast_shadows>
       </visual>
       <collision name='collision_1'>
         <pose>0 0 -0.15 0 -0 0</pose>
@@ -133,10 +133,11 @@
           </mesh>
         </geometry>
         <material>
-          <shader type='pixel' />
+          <script>
+            <name>Gazebo/Blue</name>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+          </script>
         </material>
-        <transparency>0</transparency>
-        <cast_shadows>1</cast_shadows>
       </visual>
       <collision name='rotor1_link_collision'>
         <pose>0 0 0 0 0 0</pose>
@@ -178,10 +179,11 @@
           </mesh>
         </geometry>
         <material>
-          <shader type='pixel' />
+          <script>
+            <name>Gazebo/Blue</name>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+          </script>
         </material>
-        <transparency>0</transparency>
-        <cast_shadows>1</cast_shadows>
       </visual>
       <collision name='rotor2_link_collision'>
         <pose>0 0 0 0 0 0</pose>
@@ -223,10 +225,11 @@
           </mesh>
         </geometry>
         <material>
-          <shader type='pixel' />
+          <script>
+            <name>Gazebo/Blue</name>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+          </script>
         </material>
-        <transparency>0</transparency>
-        <cast_shadows>1</cast_shadows>
       </visual>
       <collision name='rotor3_link_collision'>
         <pose>0 0 0 0 0 0</pose>
@@ -268,10 +271,11 @@
           </mesh>
         </geometry>
         <material>
-          <shader type='pixel' />
+          <script>
+            <name>Gazebo/Blue</name>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+          </script>
         </material>
-        <transparency>0</transparency>
-        <cast_shadows>1</cast_shadows>
       </visual>
       <collision name='rotor4_link_collision'>
         <pose>0 0 0 0 0 0</pose>
@@ -313,10 +317,11 @@
           </mesh>
         </geometry>
         <material>
-          <shader type='pixel' />
+          <script>
+            <name>Gazebo/Blue</name>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+          </script>
         </material>
-        <transparency>0</transparency>
-        <cast_shadows>1</cast_shadows>
       </visual>
       <collision name='rotor5_link_collision'>
         <pose>0 0 0 0 0 0</pose>
@@ -358,10 +363,11 @@
           </mesh>
         </geometry>
         <material>
-          <shader type='pixel' />
+          <script>
+            <name>Gazebo/Blue</name>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+          </script>
         </material>
-        <transparency>0</transparency>
-        <cast_shadows>1</cast_shadows>
       </visual>
       <collision name='rotor6_link_collision'>
         <pose>0 0 0 0 0 0</pose>
