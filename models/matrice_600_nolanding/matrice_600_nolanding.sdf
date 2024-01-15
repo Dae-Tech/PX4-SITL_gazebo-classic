@@ -116,11 +116,11 @@
         <pose>-1e-06 0.000339 -0.002574 0 -0 0</pose>
         <mass>0.0230909</mass>
         <inertia>
-          <ixx>1.55154e-05</ixx>
-          <ixy>-1.99747e-05</ixy>
-          <ixz>2.80731e-06</ixz>
-          <iyy>3.01024e-05</iyy>
-          <iyz>2.10605e-06</iyz>
+          <ixx>1.55154e-07</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0</iyy>
+          <iyz>0</iyz>
           <izz>4.47913e-05</izz>
         </inertia>
       </inertial>
@@ -162,12 +162,12 @@
         <pose>0.000161 -0.000257 -0.002048 0 -0 0</pose>
         <mass>0.0230912</mass>
         <inertia>
-          <ixx>4.40522e-05</ixx>
-          <ixy>-5.64014e-07</ixy>
-          <ixz>-6.7576e-08</ixz>
-          <iyy>1.8887e-06</iyy>
-          <iyz>-5.17291e-06</iyz>
-          <izz>4.44675e-05</izz>
+          <ixx>1.55154e-07</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0</iyy>
+          <iyz>0</iyz>
+          <izz>4.47913e-05</izz>
         </inertia>
       </inertial>
       <visual name='rotor2_link_visual'>
@@ -208,12 +208,12 @@
         <pose>0.000184 -0.000538 -0.001581 0 -0 0</pose>
         <mass>0.0230901</mass>
         <inertia>
-          <ixx>4.40516e-05</ixx>
-          <ixy>-5.67954e-07</ixy>
-          <ixz>7.84508e-14</ixz>
-          <iyy>1.26913e-06</iyy>
-          <iyz>-1.1161e-12</iyz>
-          <izz>4.50862e-05</izz>
+          <ixx>1.55154e-07</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0</iyy>
+          <iyz>0</iyz>
+          <izz>4.47913e-05</izz>
         </inertia>
       </inertial>
       <visual name='rotor3_link_visual'>
@@ -254,12 +254,12 @@
         <pose>-0.000477 -0.000372 -0.002145 0 -0 0</pose>
         <mass>0.0230901</mass>
         <inertia>
-          <ixx>4.40542e-05</ixx>
-          <ixy>-4.71047e-07</ixy>
-          <ixz>8.73883e-09</ixz>
-          <iyy>1.28192e-06</iyy>
-          <iyz>8.14918e-07</iyz>
-          <izz>4.50713e-05</izz>
+          <ixx>1.55154e-07</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0</iyy>
+          <iyz>0</iyz>
+          <izz>4.47913e-05</izz>
         </inertia>
       </inertial>
       <visual name='rotor4_link_visual'>
@@ -300,12 +300,12 @@
         <pose>-0.000159 9.2e-05 -0.00268 0 -0 0</pose>
         <mass>0.023092</mass>
         <inertia>
-          <ixx>3.0498e-05</ixx>
-          <ixy>-1.9927e-05</ixy>
-          <ixz>-3.7573e-07</ixz>
-          <iyy>1.4851e-05</iyy>
-          <iyz>-3.0049e-07</iyz>
-          <izz>4.5065e-05</izz>
+          <ixx>1.55154e-07</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0</iyy>
+          <iyz>0</iyz>
+          <izz>4.47913e-05</izz>
         </inertia>
       </inertial>
       <visual name='rotor5_link_visual'>
@@ -346,12 +346,12 @@
         <pose>0.00016 -0.000389 -0.002276 0 -0 0</pose>
         <mass>0.023091</mass>
         <inertia>
-          <ixx>4.4027e-05</ixx>
-          <ixy>-1.1807e-06</ixy>
-          <ixz>-1.4292e-07</ixz>
-          <iyy>1.919e-06</iyy>
-          <iyz>-5.1912e-06</iyz>
-          <izz>4.4463e-05</izz>
+          <ixx>1.55154e-07</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0</iyy>
+          <iyz>0</iyz>
+          <izz>4.47913e-05</izz>
         </inertia>
       </inertial>
       <visual name='rotor6_link_visual'>
