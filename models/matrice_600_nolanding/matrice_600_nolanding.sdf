@@ -435,7 +435,7 @@
       <child>rotor3_link</child>
       <pose>0 0 0 0 0 0</pose>
       <axis>
-        <xyz>-0.12053 0.069587 0.99027</xyz>
+        <xyz>-0.12053 -0.069587 0.99027</xyz>
         <limit>
           <lower>-1e+16</lower>
           <upper>1e+16</upper>
@@ -457,7 +457,7 @@
       <child>rotor4_link</child>
       <pose>0 0 0 0 0 0</pose>
       <axis>
-        <xyz>-0.12053 -0.069587 -0.99027</xyz>
+        <xyz>0.12053 0.069587 0.99027</xyz>
         <limit>
           <lower>-1e+16</lower>
           <upper>1e+16</upper>
@@ -501,7 +501,7 @@
       <child>rotor6_link</child>
       <pose>0 0 0 0 0 0</pose>
       <axis>
-        <xyz>0.12053 0.069587 0.99027</xyz>
+        <xyz>0.12053 -0.069587 0.99027</xyz>
         <limit>
           <lower>-1e+16</lower>
           <upper>1e+16</upper>
