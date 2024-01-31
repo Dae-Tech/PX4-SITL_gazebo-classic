@@ -1,0 +1,10 @@
+<!--freedom statue model and base for more models sdf programming-->
+<?xml version='1.0'?>
+<sdf version='1.5'>
+  <pose>0 0 0 0 0 0</pose>
+    <include>
+        <uri>
+            https://fuel.gazebosim.org/1.0/beronaeron/models/UPB_12_BLOCK
+        </uri>
+    </include>
+</sdf>
