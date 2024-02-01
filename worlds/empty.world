@@ -5,12 +5,6 @@
     <include>
       <uri>model://sun</uri>
     </include>
-
-    <include>
-      <uri>
-        https://fuel.gazebosim.org/1.0/beronaeron/models/UPB_12_BLOCK
-      </uri>
-    </include>
     <!-- A ground plane -->
     <include>
       <uri>model://ground_plane</uri>
