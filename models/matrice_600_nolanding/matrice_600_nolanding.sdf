@@ -385,7 +385,7 @@
         <limit>
           <lower>-1e+16</lower>
           <upper>1e+16</upper>
-          <effort>0.001</effort>
+          <effort>10</effort>
         </limit>
         <dynamics>
           <damping>0.005</damping>
@@ -407,7 +407,7 @@
         <limit>
           <lower>-1e+16</lower>
           <upper>1e+16</upper>
-          <effort>0.001</effort>
+          <effort>10</effort>
         </limit>
         <dynamics>
           <damping>0.005</damping>
@@ -429,7 +429,7 @@
         <limit>
           <lower>-1e+16</lower>
           <upper>1e+16</upper>
-          <effort>0.001</effort>
+          <effort>10</effort>
         </limit>
         <dynamics>
           <damping>0.005</damping>
@@ -451,7 +451,7 @@
         <limit>
           <lower>-1e+16</lower>
           <upper>1e+16</upper>
-          <effort>0.001</effort>
+          <effort>10</effort>
         </limit>
         <dynamics>
           <damping>0.005</damping>
@@ -473,7 +473,7 @@
         <limit>
           <lower>-1e+16</lower>
           <upper>1e+16</upper>
-          <effort>0.001</effort>
+          <effort>10</effort>
         </limit>
         <dynamics>
           <damping>0.005</damping>
@@ -495,7 +495,7 @@
         <limit>
           <lower>-1e+16</lower>
           <upper>1e+16</upper>
-          <effort>0.001</effort>
+          <effort>10</effort>
         </limit>
         <dynamics>
           <damping>0.005</damping>
