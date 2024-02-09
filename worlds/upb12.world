@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <sdf version="1.5">
-    <world name="default">
+    <world name="upb12">
         <scene>
             <sky>
                 <clouds>
@@ -14,9 +14,6 @@
         <!-- A global light source -->
         <include>
             <uri>model://sun</uri>
-        </include>
-        <include>
-            <uri>model://yosemite</uri>
         </include>
         <include>
             <uri>model://upb12</uri>
