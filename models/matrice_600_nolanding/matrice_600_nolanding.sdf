@@ -763,6 +763,7 @@
     </plugin>
 
     <static>0</static>
+    <enable_lockstep>false</enable_lockstep>
 
     <plugin name='rotors_gazebo_imu_plugin' filename='libgazebo_imu_plugin.so'>
       <robotNamespace />
