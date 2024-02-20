@@ -524,6 +524,7 @@
         </channel>
       </control_channels>
     </plugin>
+    <enable_lockstep>false</enable_lockstep>
     <static>0</static>
     <plugin name='rotors_gazebo_imu_plugin' filename='libgazebo_imu_plugin.so'>
       <robotNamespace/>
