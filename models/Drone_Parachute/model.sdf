@@ -1,0 +1,81 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <model name="Drone_Parachute">
+    <include>
+      <uri>model://parachute_small</uri>
+      <pose>0 0 0.2 0 0 0</pose>
+    </include>
+     <model name='matrice_600_nolanding'>
+    <pose>0 0 0 0 0 0</pose>
+    <link name='base_link'>
+      <pose>0 0 0 0 0 0</pose>
+      <inertial>
+        <pose>0 0 0 0 0 0</pose>
+        <mass>8</mass>
+        <inertia>
+          <ixx>0.72535923</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.93675562</iyy>
+          <iyz>0</iyz>
+          <izz>0.7498317</izz>
+        </inertia>
+      </inertial>
+      <self_collide>0</self_collide>
+      <velocity_decay />
+      <gravity>1</gravity>
+      <visual name='base_link_visual'>
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://Drone_Parachute/meshes/base_link.STL</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <script>
+            <name>Gazebo/DarkGrey</name>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+          </script>
+        </material>
+      </visual>
+      <collision name='collision_1'>
+        <pose>0 0 -0.15 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>1.06792 1.22192 0.758715</size>
+          </box>
+        </geometry>
+        <surface>
+          <contac>
+            <ode>
+              <min_depth>0.001</min_depth>
+              <max_vel>0</max_vel>
+            </ode>
+          </contac>
+          <friction>
+            <ode />
+          </friction>
+        </surface>
+      </collision>
+    </link>
+    <joint name='parachute_joint' type='revolute'>
+      <child>base_link</child>
+      <parent>parachute_small::chute</parent>
+      <axis>
+        <xyz>1 0 0</xyz>
+        <limit>
+          <lower>0</lower>
+          <upper>0</upper>
+          <effort>0</effort>
+          <velocity>0</velocity>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+        <use_parent_model_frame>1</use_parent_model_frame>
+      </axis>
+    </joint>
+    </model>
+</sdf>
