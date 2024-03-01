@@ -20,5 +20,6 @@
         "/home/windrobo/demo_ws/install/arm_controller/lib/python3.8/site-packages",
         "/home/windrobo/dai_ws/install/depthai_ros_msgs/lib/python3.8/site-packages",
         "/opt/ros/foxy/lib/python3.8/site-packages"
-    ]
+    ],
+    "ros.distro": "humble"
 }
