@@ -11,6 +11,7 @@
     </include>
     <include>
       <uri>model://upb12</uri>
+      <pose>36 69 11 0 0 0</pose>
     </include>
     <scene>
         <sky>
