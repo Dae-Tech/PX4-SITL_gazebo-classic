@@ -10,7 +10,7 @@ material vrc/upb12
 
 			texture_unit
 			{
-				texture b12.png
+				texture b12.jpg
 				filtering anistropic
 				max_anisotropy 16
 				scale 0.1 0.1
