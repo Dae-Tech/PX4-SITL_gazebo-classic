@@ -35,19 +35,19 @@
                     <uri>model://upb12/meshes/mesh.obj</uri>
               </mesh>
             </geometry>
-            <!-- <material>
+            <material>
               <script>
                 <name>Gazebo/DarkGrey</name>
                 <uri>file://media/materials/scripts/gazebo.material</uri>
               </script>
-            </material> -->
-            <material>
+            </material>
+            <!-- <material>
               <script>
                 <uri>model://upb12/materials/scripts</uri>
-                <uri>file://materials/scripts/textures</uri>
+                <uri>model://upb12/materials/textures</uri>
                 <name>vrc/upb12</name>
               </script>
-            </material>
+            </material> -->
           </visual>
           <gravity>1</gravity>
         </link>
